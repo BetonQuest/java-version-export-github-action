@@ -6,6 +6,10 @@ inputs:
     description: "The Maven expression to evaluate for the java version"
     required: false
     default: "maven.compiler.target"
+  maven-command:
+    description: "The Maven command to use for example maven-wrapper"
+    required: false
+    default: "mvn"
 
 runs:
   using: "node20"

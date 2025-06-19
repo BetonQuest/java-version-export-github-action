@@ -42,8 +42,9 @@ try {
 
     if (maven) {
         const mavenExpression = core.getInput('maven-expression');
+        const mavenCommand = core.getInput('maven-command');
         cmd(
-            "mvn",
+            mavenCommand,
             [
                 "help:evaluate",
                 "-q",
