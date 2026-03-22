@@ -7,8 +7,8 @@
     "url": "git+https://github.com/BetonQuest/java-version-exporter.git"
   },
   "dependencies": {
-    "@actions/core": "^1.10.1",
-    "@actions/exec": "^1.1.1",
-    "@actions/github": "^6.0.0"
+    "@actions/core": "^3.0.0",
+    "@actions/exec": "^3.0.0",
+    "@actions/github": "^9.0.0"
   }
 }
