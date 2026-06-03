@@ -2,6 +2,7 @@
   "name": "java-version-exporter",
   "description": "A github action to evaluate and export the version of Java as both a step output and an environment variable as gleemed from reading the root Maven pom.xml file",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BetonQuest/java-version-exporter.git"

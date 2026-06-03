@@ -8,10 +8,10 @@
  * @author Josh Long
  */
 /* see: https://github.com/actions/toolkit */
-const core = require("@actions/core");
-const github = require("@actions/github");
-const exec = require("@actions/exec");
-const fs = require('fs');
+import * as core from "@actions/core";
+import * as github from "@actions/github";
+import * as exec from "@actions/exec";
+import fs from "fs";
 
 /**
  * makes it a little more clean to exec something. Make sure to redirect all other file descriptors to stdout!
